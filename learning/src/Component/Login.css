@@ -1,0 +1,183 @@
+/*
+.loginform{
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    min-height: 600px;
+    margin: auto;
+    margin-top: 15px;   
+}
+Input{
+    width: 80%;
+    padding: 30px;
+    margin-top: 10px;
+}
+.loginform2{
+    text-align: center;
+}
+
+.loginbtn{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    background-color: #191970;
+}
+.logoimg{
+    margin-left:30%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: gray;
+}
+
+.fonticon{
+    display: inline block;
+    
+}
+.fonticon1{
+    padding: 15px;
+    float: left;
+    margin-left: 7%;
+}
+*/
+input,
+textarea {
+    background-color: whitesmoke;
+    padding: 12px 15px 12px 15px !important;
+    width: 100%;
+    box-sizing: border-box;
+    border: none !important;
+    border: 1px solid #b3acb4 !important;
+    font-size: 16px !important;
+    color: #000 !important;
+    font-weight: 400
+}
+
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #292829 !important;
+    outline-width: 0;
+    font-weight: 400
+}
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+.logincard1 {
+    width: 45%;
+    padding: 40px 30px 10px 30px;
+    background-color: #fff;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.logincard2 {
+    width: 50%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Image/loginimg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: opacity(80%);
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.signupbtn{
+    left: 30%;
+}
+#loginlogo{
+    width: 120px;
+    height: 100px;
+    
+}
+.heading {
+    margin-bottom: 60px !important
+}
+.form-control-label {
+    font-size: 12px;
+    margin-left: 15px
+}
+
+.msg-info {
+    padding-left: 15px;
+    margin-bottom: 15px
+}
+
+.btn-color {
+    border-radius: 50px;
+    color: #fff;
+    background-color: #1F60ab;
+    padding: 8px;
+    cursor: pointer;
+    border: none !important;
+    margin-top: 40px
+}
+
+.btn-color:hover {
+    color: #fff;
+    background-color: #5589c4;
+}
+
+.btn-white {
+    border-radius: 50px;
+    color: #1F60ab;
+    background-color: #fff;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: 2px solid #1F60ab !important
+}
+
+.btn-white:hover {
+    color: #fff;
+    background-color: #5589c4;
+}
+
+
+
+.bottom {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 992px) {
+    .logincard1 {
+        width: 100%;
+        padding: 40px 30px 10px 30px
+    }
+
+    .logincard2 {
+        width: 100%
+    }
+
+    .right {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .logincard2 {
+        padding: 50px
+    }
+
+    .right {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important
+    }
+}
+
+    
+  

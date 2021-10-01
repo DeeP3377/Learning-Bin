@@ -1,0 +1,6 @@
+.cardtext :hover{
+    font-size: 24px;
+}
+.cardimage :hover{
+    width: 100%;
+}
