@@ -1,0 +1,33 @@
+.bgdiv{
+    background-color: whitesmoke;
+    color: #6990bd;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+p{
+	font-size: 14px;
+	color: black;	
+  }
+  body{
+	overflow-x:hidden;
+	
+  }
+  .container{
+	  max-width: 1600px;
+  }
+  body::-webkit-scrollbar{
+	width: 10px;
+  }
+  body::-webkit-scrollbar-track{
+	border-radius: 10px;
+	background-color: rgb(197, 197, 197);
+  }
+  body::-webkit-scrollbar-thumb{
+	border-radius: 10px;
+	background-color: #5c9ae2;
+  }

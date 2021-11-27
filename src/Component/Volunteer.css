@@ -1,0 +1,82 @@
+.Volunteerimg{
+    border-radius: 50%;
+}
+.volunteercard :hover{
+    background-color: tomato;
+    color: #fff;
+}
+.column3 {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+  .row3 {margin: auto}
+  
+
+  .row3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 1000px) {
+    .column3 {
+      width: 33%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 80px) {
+    .column3 {
+      width: 33%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  .card3 {
+    box-shadow: 0px 15px 15px -15px #000;
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+
+  .wavimg{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+}
+@-webkit-keyframes up-down{
+    0% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+@keyframes up-down{
+    0% {
+        transform: translateY(15px);
+    }
+    100% {
+        transform: translateY(-15px);
+    }
+}
+
+  @media screen and (max-width: 600px) {
+    .column3 {
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  .card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }

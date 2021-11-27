@@ -1,0 +1,93 @@
+.imghover :hover{
+    padding: 20px;
+}
+.cardimg{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .card-title{
+    font-size: 14px;
+    text-align: center;
+  }
+  .t1{
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  .card-top{
+    box-shadow: 0px 15px 15px -15px #000;
+    background-color: white;
+  }
+  .card-top:hover{
+    background-image: linear-gradient(to bottom, #1A5FAA ,#87CEFA);
+    color: #fff;
+   }
+  .card-img-top{
+      width : 90%;
+      height: 200px;
+      margin-left:5%;
+  }
+  .card-img-top :hover{
+    padding: 5px;
+}
+
+.btn-10 {
+    border: 1px solid #1F60ab;
+    color: #1F60ab;
+    transition: all 0.3s ease;
+    overflow: hidden;
+  }
+  .btn-10:hover{
+    border: 2px solid #1F60ab;
+    color: #fff;
+    background-color: #1F60ab ;
+  }
+  .btn-11{
+    background-color: white;
+  }
+  .btn-11:hover{
+    background-color: whitesmoke;
+    text-decoration: underline;
+  }
+  @media (min-width: 1024px) and (max-width: 1366px) 
+  {
+    .card-img-top{
+      width : 90%;
+      height: 170px;
+      margin-left:5%;
+  }
+    .card-title{
+      font-size: 12px;
+      text-align: center;
+    }
+    .t1{
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 768px) and (max-width : 1024px){
+    .card-img-top{
+      width : 90%;
+      height: 150px;
+      margin-left:5%;
+  }
+    .card-title{
+      font-size: 10px;
+      text-align: center;
+    }
+    .t1{
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 768px) and (max-width : 1024px){
+    .card-title{
+      font-size: 10px;
+      text-align: center;
+    }
+    .t1{
+      font-size: 14px;
+    }
+  }
