@@ -1,0 +1,66 @@
+#doubts2{
+    overflow-y: auto;
+    height: 1000px;
+    background-color: whitesmoke;
+   
+}
+#doubts2::-webkit-scrollbar {
+    display: none;
+  }
+#doubts2 {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+}
+.quesimg{
+  width: 450px;
+  height: 350px;
+  max-width: 75%;
+  max-height: 300px;
+}
+.doubtslink{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.doubtslink1{
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.doubtsbtn1{
+  font-size: 14px;
+}
+.doubtsbtn11{
+  font-size: 14px;
+}
+@media screen and (max-width: 768px){
+  .logoimg1{
+    width:300px;
+    height: 60px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px){
+  .logoimg1{
+    width:300px;
+    height: 60px;
+    font-size: 12px;
+  }
+  .doubtsbtn1{
+    font-size: 14px;
+  }
+  .doubtslink{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+  }
+  .doubtslink1{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+  }
+  .doubtsbtn11{
+    font-size: 12px;
+  }
+}
+

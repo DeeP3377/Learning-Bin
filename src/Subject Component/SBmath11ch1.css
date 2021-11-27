@@ -1,0 +1,41 @@
+
+.cf{
+    margin:0px;
+    padding: 0px;
+  }
+  .msb{
+    background-color: #1F60ab;
+    position: absolute;
+    width:15%;
+    height: 700px;
+    overflow-y: auto;
+  }
+  .msb li{
+    list-style: none;
+   
+    display: block;
+    margin-top: 10px;
+  }
+  .msb li:hover{
+    border-right :5px solid red;
+    margin-bottom: 5px;
+  }
+  .msb li a{
+    text-decoration: none;
+    color: white;
+  }
+  .msb button{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .subjectbody{
+    height: 700px;
+    overflow-y: auto;
+    margin-left: 15%;
+  }
+  
+  
